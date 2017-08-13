@@ -5,8 +5,33 @@ html {
 h1 {
   font-size:70px;
   font-weight: bold;
-  color: white;
-
-#titleimage {
-  background-image: url(resources/images/flatiron.png);
+  color: blue;
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 23px;
+  font-weight: bold;
+}
+h5 {
+  font-size: 18px;
+  color: blue;
+}
+p {
+  font-size: 14px;
+}
+.titleimage {
+  background-image: url(/resources/images/flatiron.png);
+}
+h3.titleimage {
+  font-size: 23px;
+  font-weight: bold;
+}
+h6 {
+  font-size: 11px;
+  color:white;
+  background-color:dimgray;
+  text-align: left;
 }
